@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+service Model3D {
+    rpc Convert(Model) returns(Model) {
+    }
+
+    rpc Version(VersionNumber) returns(VersionNumber) {
+       // return new Version;
+    }
+}
+
+message Model {
+  string name = 2;
+  bytes file = 1;
+}
+
+message VersionNumber {
+    int32 number = 1;
+}

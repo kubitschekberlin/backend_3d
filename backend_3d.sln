@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "backend_3d", "backend_3d.vcxproj", "{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{4F7E6B4A-D96C-458F-822B-9A40635B09FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.Debug|x64.ActiveCfg = Debug|x64
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.Debug|x64.Build.0 = Debug|x64
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.Debug|x86.Build.0 = Debug|Win32
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.MinSizeRel|x64.Build.0 = Release|x64
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.MinSizeRel|x86.Build.0 = Release|Win32
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.Release|x64.ActiveCfg = Release|x64
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.Release|x64.Build.0 = Release|x64
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.Release|x86.ActiveCfg = Release|Win32
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.Release|x86.Build.0 = Release|Win32
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{497EA6A0-6653-4D85-BAD0-AA4E7FC6C6BC}.RelWithDebInfo|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8112DF9-9DEA-4F6D-AEA4-8EFF75A283B1}
+	EndGlobalSection
+EndGlobal

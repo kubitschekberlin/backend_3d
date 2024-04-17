@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="model_3d.proto" />
+    <None Include="vcpkg-configuration.json">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="vcpkg.json">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="protobuf_grpc.ps1">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="create_zlib..ps1">
+      <Filter>Config</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="backend_3d.cpp" />
+    <ClCompile Include="model_3d.pb.cc">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="model_3d.grpc.pb.cc">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="model_3d.pb.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="model_3d.grpc.pb.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{a762b272-84ea-491e-9509-0cd0bd9fe76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{01205143-e38f-4294-91c2-231885230422}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
